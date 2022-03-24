@@ -5,9 +5,15 @@ function Nav(props) {
 	return (
 		<nav>
 			<ul>
-				<li>1st list</li>
-				<li>2nd list</li>
-				<li>3rd list</li>
+				<Link to='/'>
+					<li>1st list</li>
+				</Link>
+				<Link to='/about'>
+					<li>2nd list</li>
+				</Link>
+				<Link to='/services'>
+					<li>3rd list</li>
+				</Link>
 			</ul>
 		</nav>
 	);
