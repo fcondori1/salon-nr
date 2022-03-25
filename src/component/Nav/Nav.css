@@ -1,0 +1,15 @@
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.navbar:hover {
+    color: black;
+}

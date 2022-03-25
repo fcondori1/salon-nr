@@ -4,16 +4,17 @@ import './Nav.css';
 function Nav(props) {
 	return (
 		<nav>
-			<ul>
-				<Link to='/'>
-					<li>1st list</li>
+			<ul className='navbar'>
+				<Link className='link' to='/'>
+					<li>Home</li>
 				</Link>
-				<Link to='/about'>
-					<li>2nd list</li>
+				<Link className='link' to='/about'>
+					<li>About</li>
 				</Link>
-				<Link to='/services'>
-					<li>3rd list</li>
+				<Link className='link' to='/services'>
+					<li>Services</li>
 				</Link>
+					<li>Locations</li>
 			</ul>
 		</nav>
 	);
