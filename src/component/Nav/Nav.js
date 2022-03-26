@@ -14,7 +14,9 @@ function Nav(props) {
 				<Link className='link' to='/services'>
 					<li>Services</li>
 				</Link>
-					<li>Locations</li>
+				<Link className='link' to='/gallery'>
+					<li>Gallery</li>
+				</Link>
 			</ul>
 		</nav>
 	);
