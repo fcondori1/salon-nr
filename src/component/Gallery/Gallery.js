@@ -1,0 +1,23 @@
+import React from 'react';
+
+function Gallery(props) {
+    return (
+			<div>
+				<h2>Hello from Gallery</h2>
+				<ul>
+					<li>Image 1</li>
+					<li>Image 2</li>
+					<li>Image 3</li>
+					<li>Image 4</li>
+				</ul>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+					voluptas, dolorem earum quod sint assumenda dolores optio ipsum illum
+					voluptates, vel officiis magnam ipsa. Eius, officia esse? Dolor, natus
+					eum?
+				</p>
+			</div>
+		);
+}
+
+export default Gallery;
