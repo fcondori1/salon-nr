@@ -1,0 +1,12 @@
+.logo {
+    width: auto;
+    height: 20px;
+    margin: 20px;
+}
+
+.footer_logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
