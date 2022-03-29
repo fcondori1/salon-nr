@@ -3,13 +3,28 @@
     list-style: none;
 }
 
+li {
+    margin: 0px 10px;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     font-size: 20px;
+    width: 80%;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar:hover {
     color: black;
+}
+
+.icon {
+    height: 30px;
+    margin: 20px;
 }
