@@ -1,10 +1,11 @@
 import React from 'react';
 import noelia from '../../assets/noelia.png';
+import './About.css';
 
 function About(props) {
     return (
 			<div>
-				<h2>Hello from About</h2>
+				<h2>Noelia Rosales</h2>
 				<img src={noelia} alt='noelia profile pic' className='profile'></img>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
