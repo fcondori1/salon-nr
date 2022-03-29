@@ -14,7 +14,7 @@ function Footer(props) {
 				<img src={facebook} alt='facebook logo' className='logo'></img>
 			</a>
 			<a
-				href='instagram.com/rjnbeauty?utm_medium=copy_link'
+				href='https://www.instagram.com/rjnbeauty/?utm_medium=copy_link'
 				target='_blank'
 				rel='noreferrer'>
 				<img src={instagram} alt='instagram logo' className='logo'></img>
