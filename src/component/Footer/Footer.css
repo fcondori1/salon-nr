@@ -5,8 +5,13 @@
 }
 
 .footer_logos {
+    background-image: url(../../assets/salon-tools.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
