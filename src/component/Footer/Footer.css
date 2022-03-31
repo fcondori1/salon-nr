@@ -1,7 +1,15 @@
 .logo {
     width: auto;
-    height: 20px;
-    margin: 20px;
+    height: 25px;
+}
+
+.logo:hover {
+    opacity: .25;
+}
+
+.space {
+    height: auto;
+    margin: 40px 30px;
 }
 
 .footer_logos {
