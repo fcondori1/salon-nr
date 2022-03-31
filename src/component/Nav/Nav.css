@@ -15,9 +15,12 @@ li {
     width: 80%;
 }
 
-.navbar1 {
+.navigation {
     display: flex;
     flex-direction: row;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
 }
 
 .navbar:hover {

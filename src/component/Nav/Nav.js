@@ -4,7 +4,7 @@ import './Nav.css';
 
 function Nav(props) {
 	return (
-		<nav className='navbar1'>
+		<nav className='navigation'>
 			<Link className='link' to='/'>
 				<img src={clip} alt='scissor and comb icon' className='icon'></img>
 			</Link>
