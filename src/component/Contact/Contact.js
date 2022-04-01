@@ -3,7 +3,9 @@ import React from 'react';
 function Contact(props) {
     return (
         <div>
-            <p></p>
+            <p>Name</p>
+            <p>Phone</p>
+            <p>Email</p>
         </div>
     );
 }
