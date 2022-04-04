@@ -1,6 +1,7 @@
 .link {
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
 .link:visited {
