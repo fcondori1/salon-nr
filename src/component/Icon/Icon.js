@@ -1,12 +1,12 @@
 import React from 'react';
-import '../Footer/Footer.css';
+// import '../Footer/Footer.css';
 import facebook from '../../assets/face_logo.png';
 import instagram from '../../assets/insta_logo2.png';
 import linkedin from '../../assets/linked_logo.png';
 
 function Icon(props) {
 	return (
-		<div>
+		<div className='icon_footer'>
 			<a
 				href='https://www.facebook.com/noelia.romero.311'
 				target='_blank'

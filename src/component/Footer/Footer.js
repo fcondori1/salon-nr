@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact';
 function Footer(props) {
 	return (
 		<div className='footer_logos'>
-			<Contact />
+			{/* <Contact /> */}
 			<Icon />
 		</div>
 	);
