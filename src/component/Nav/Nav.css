@@ -25,6 +25,7 @@ li {
     flex-direction: row;
     position: fixed;
     width: 100%;
+    top: 0;
     background-color: whitesmoke;
 }
 
@@ -37,4 +38,6 @@ li {
     margin: 20px 0px 20px 20px;
     padding-left: 25%;
     filter: grayscale(100%);
+    /* float: left;
+    display: block; */
 }
