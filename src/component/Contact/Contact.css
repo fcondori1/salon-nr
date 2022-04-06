@@ -8,5 +8,10 @@
 }
 
 .boxes {
-    border: solid black 2px;
+    border: solid black 1px;
+    padding: 10%;
+}
+
+.boxes:hover {
+    background-color: rgb(192, 183, 103);
 }
