@@ -8,7 +8,7 @@ import Contact from '../Contact/Contact';
 function Main(props) {
 	return (
 		<>
-			<div className='container'>
+			<div className='page'>
 				<img
 					src={background1}
 					alt='Salon with brushes'

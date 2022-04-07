@@ -2,7 +2,7 @@ import React from 'react';
 
 function Services(props) {
 	return (
-		<div>
+		<div className='page'>
 			<h2>Hello from Services</h2>
 		</div>
 	);
