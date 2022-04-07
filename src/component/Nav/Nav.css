@@ -9,15 +9,7 @@
 }
 
 li {
-    margin: 0px 10px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 20px;
-    width: 80%;
+    margin: 0px 6px;
 }
 
 .navigation {
@@ -28,6 +20,15 @@ li {
     top: 0;
     background-color: whitesmoke;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 20px;
+    width: 75%;
+}
+
 
 .navbar:hover {
     color: black;
