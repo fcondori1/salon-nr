@@ -1,8 +1,9 @@
 import React from 'react';
+import './Gallery.css';
 
 function Gallery(props) {
     return (
-			<div>
+			<div className='page'>
 				<h2>Hello from Gallery</h2>
 				<ul>
 					<li>Image 1</li>

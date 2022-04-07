@@ -1,6 +1,7 @@
 .link {
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
 .link:visited {
@@ -8,15 +9,7 @@
 }
 
 li {
-    margin: 0px 10px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 20px;
-    width: 80%;
+    margin: 0px 6px;
 }
 
 .navigation {
@@ -24,8 +17,18 @@ li {
     flex-direction: row;
     position: fixed;
     width: 100%;
+    top: 0;
     background-color: whitesmoke;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 20px;
+    width: 75%;
+}
+
 
 .navbar:hover {
     color: black;
@@ -36,4 +39,6 @@ li {
     margin: 20px 0px 20px 20px;
     padding-left: 25%;
     filter: grayscale(100%);
+    /* float: left;
+    display: block; */
 }

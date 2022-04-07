@@ -4,7 +4,7 @@ import './About.css';
 
 function About(props) {
     return (
-			<div>
+			<div className='page'>
 				<h2>Noelia Rosales</h2>
 				<img src={noelia} alt='noelia profile pic' className='profile'></img>
 				<p>
