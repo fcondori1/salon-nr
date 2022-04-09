@@ -1,15 +1,16 @@
 import React from 'react';
 import './Services.css';
+import { Link } from 'react-router-dom'
 
 function Services(props) {
 	return (
 		<div className='page'>
-			<ul className='service-list'>
-				<li className='service-item'>Hair Styling</li>
-				<li className='service-item'>Hair Cutting</li>
-				<li className='service-item'>Hair Coloring</li>
-				<li className='service-item'>Make-up</li>
-			</ul>
+			<div className='service-list'>
+				<div className='service-item'>Hair Stydivng</div>
+				<div className='service-item'>Hair Cutting</div>
+				<div className='service-item'>Hair Coloring</div>
+				<div className='service-item'>Make-up</div>
+			</div>
 		</div>
 	);
 }
