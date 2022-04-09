@@ -4,7 +4,6 @@ import './Gallery.css';
 function Gallery(props) {
     return (
 			<div className='page'>
-				<h2>Hello from Gallery</h2>
 				<ul>
 					<li>Image 1</li>
 					<li>Image 2</li>
