@@ -1,6 +1,6 @@
 .logo {
     width: auto;
-    height: 25px;
+    height: 20px;
 }
 
 .logo:hover {
@@ -17,10 +17,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .footer_logos {
+        height: 250px;
+    }
+
+    .logo {
+        height: 35px;
+    }
 }

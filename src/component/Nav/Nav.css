@@ -9,7 +9,7 @@
 }
 
 li {
-    margin: 0px 6px;
+    margin: 0px 6px 0px 0px;
 }
 
 .navigation {
@@ -24,9 +24,10 @@ li {
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     font-size: 20px;
-    width: 75%;
+    width: 80%;
+    margin: 20px 0px;
 }
 
 
@@ -36,9 +37,29 @@ li {
 
 .icon {
     height: 40px;
-    margin: 20px 0px 20px 20px;
+    margin: 20px 0px 20px 10px;
     padding-left: 25%;
     filter: grayscale(100%);
     /* float: left;
     display: block; */
+}
+
+@media screen and (min-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+        width: 95%;
+    }
+
+    li {
+        margin: 0px 15px;
+    }
+
+    .icon {
+        height:45px;
+        margin: 20px 30px;
+        padding-left: 25%;
+        filter: grayscale(100%);
+    }
 }

@@ -10,12 +10,12 @@ function Main(props) {
 		<>
 			<div className='page'>
 				<img
-					src={background1}
+					src={background2}
 					alt='Salon with brushes'
 					className='background1'></img>
 				<Contact />
 				<img
-					src={background2}
+					src={background1}
 					alt='Salon with brushes'
 					className='background1'></img>
 				{/* <img
