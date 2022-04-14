@@ -16,7 +16,7 @@ import wig7 from '../../assets/gallery/wig7.JPG';
 function Gallery(props) {
     return (
 			<div className='page'>
-				<div>
+				<div className='gallery-wigs'>
 					<img
 						src={wig1}
 						alt=''
@@ -26,39 +26,39 @@ function Gallery(props) {
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig2}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig2a}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig2b}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig3}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig3a}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig4}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig5}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig6}
 						alt=''
 						className='gallery-img'></img>
 					<img
-						// src={}
+						src={wig7}
 						alt=''
 						className='gallery-img'></img>
 				</div>
