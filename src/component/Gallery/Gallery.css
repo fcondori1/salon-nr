@@ -1,0 +1,9 @@
+.gallery-img {
+    width: 10%;
+}
+
+.gallery-wigs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
