@@ -1,9 +1,12 @@
 .gallery-img {
-    width: 10%;
+    width: 150px;
+    margin: 10px;
+    
 }
 
 .gallery-wigs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }

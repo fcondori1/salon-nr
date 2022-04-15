@@ -16,6 +16,7 @@ import wig7 from '../../assets/gallery/wig7.JPG';
 function Gallery(props) {
     return (
 			<div className='page'>
+				<h2>Wigs</h2>
 				<div className='gallery-wigs'>
 					<img
 						src={wig1}
@@ -62,6 +63,7 @@ function Gallery(props) {
 						alt=''
 						className='gallery-img'></img>
 				</div>
+				<h2>Hair/Make-up</h2>
 				<div>
 					<img
 						// src={}
