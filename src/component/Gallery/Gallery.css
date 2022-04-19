@@ -1,7 +1,7 @@
 .gallery-img {
     width: 150px;
     margin: 10px;
-    
+
 }
 
 .gallery-wigs {
@@ -9,4 +9,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    .gallery-full {
+        width: 45%;
+        /* height: 25%; */
+    }
 }
