@@ -11,11 +11,23 @@ import wig4 from '../../assets/gallery/wig4.JPG';
 import wig5 from '../../assets/gallery/wig5.JPG';
 import wig6 from '../../assets/gallery/wig6.JPG';
 import wig7 from '../../assets/gallery/wig7.JPG';
+import full1 from '../../assets/gallery/full1.JPG';
+import full2 from '../../assets/gallery/full2.JPG';
 
 
 function Gallery(props) {
     return (
 			<div className='page'>
+				<div>
+					<img
+						src={full1}
+						alt=''
+						className='gallery-img gallery-full'></img>
+					<img
+						src={full2}
+						alt=''
+						className='gallery-img gallery-full'></img>
+				</div>
 				<h2>Wigs</h2>
 				<div className='gallery-wigs'>
 					<img
@@ -64,24 +76,6 @@ function Gallery(props) {
 						className='gallery-img'></img>
 				</div>
 				<h2>Hair/Make-up</h2>
-				<div>
-					<img
-						// src={}
-						alt=''
-						className='gallery-img'></img>
-					<img
-						// src={}
-						alt=''
-						className='gallery-img'></img>
-					<img
-						// src={}
-						alt=''
-						className='gallery-img'></img>
-					<img
-						// src={}
-						alt=''
-						className='gallery-img'></img>
-				</div>
 				<div>
 					<img
 						// src={}
