@@ -1,7 +1,7 @@
 .gallery-img {
     width: 150px;
     margin: 10px;
-
+    /* height: 200px; */
 }
 
 .gallery-wigs {
@@ -9,11 +9,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    /* width: 80%; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.gallery-fix {
+    height: 200px;
 }
 
 @media screen and (min-width: 600px) {
     .gallery-full {
-        width: 45%;
+        width: 30%;
+        margin: 10px 30px;
         /* height: 25%; */
     }
 }
