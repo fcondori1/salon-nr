@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Gallery.css';
+import Loading from '../Loading/Loading';
 import wig1 from '../../assets/gallery/wig1.JPG';
 import wig1a from '../../assets/gallery/wig1a.JPG';
 import wig2 from '../../assets/gallery/wig2.JPG';
@@ -24,39 +25,50 @@ import img7 from '../../assets/gallery/img7.JPG';
 import img8 from '../../assets/gallery/img8.JPG';
 
 function Gallery(props) {
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 2000);
+	}, []);
 	return (
-		<div className='page'>
-			<div>
-				<img src={full1} alt='' className='gallery-img gallery-full'></img>
-				<img src={full2} alt='' className='gallery-img gallery-full'></img>
-			</div>
-			<h2>Hair/Make-up</h2>
-			<div>
-				<img src={img1} alt='' className='gallery-img gallery-fix'></img>
-				<img src={img2} alt='' className='gallery-img'></img>
-				<img src={img3} alt='' className='gallery-img gallery-fix'></img>
-				<img src={img4} alt='' className='gallery-img'></img>
-				<img src={img5} alt='' className='gallery-img'></img>
-				<img src={img6} alt='' className='gallery-img'></img>
-				<img src={img7} alt='' className='gallery-img'></img>
-				<img src={img8} alt='' className='gallery-img'></img>
-			</div>
-			<h2>Wigs</h2>
-			<div className='gallery-wigs'>
-				<img src={wig1} alt='' className='gallery-img'></img>
-				<img src={wig1a} alt='' className='gallery-img'></img>
-				<img src={wig2} alt='' className='gallery-img'></img>
-				<img src={wig2a} alt='' className='gallery-img'></img>
-				<img src={wig2b} alt='' className='gallery-img'></img>
-				<img src={wig3} alt='' className='gallery-img'></img>
-				<img src={wig3a} alt='' className='gallery-img'></img>
-				<img src={wig4} alt='' className='gallery-img'></img>
-				<img src={wig5} alt='' className='gallery-img'></img>
-				<img src={wig6} alt='' className='gallery-img'></img>
-				<img src={wig7} alt='' className='gallery-img'></img>
-				<img src={wig8} alt='' className='gallery-img'></img>
-			</div>
-		</div>
+		<>
+			{loading === false ? (
+				<div className='page'>
+					<div>
+						<img src={full1} alt='' className='gallery-img gallery-full'></img>
+						<img src={full2} alt='' className='gallery-img gallery-full'></img>
+					</div>
+					<h2>Hair/Make-up</h2>
+					<div>
+						<img src={img1} alt='' className='gallery-img gallery-fix'></img>
+						<img src={img2} alt='' className='gallery-img'></img>
+						<img src={img3} alt='' className='gallery-img gallery-fix'></img>
+						<img src={img4} alt='' className='gallery-img'></img>
+						<img src={img5} alt='' className='gallery-img'></img>
+						<img src={img6} alt='' className='gallery-img'></img>
+						<img src={img7} alt='' className='gallery-img'></img>
+						<img src={img8} alt='' className='gallery-img'></img>
+					</div>
+					<h2>Wigs</h2>
+					<div className='gallery-wigs'>
+						<img src={wig1} alt='' className='gallery-img'></img>
+						<img src={wig1a} alt='' className='gallery-img'></img>
+						<img src={wig2} alt='' className='gallery-img'></img>
+						<img src={wig2a} alt='' className='gallery-img'></img>
+						<img src={wig2b} alt='' className='gallery-img'></img>
+						<img src={wig3} alt='' className='gallery-img'></img>
+						<img src={wig3a} alt='' className='gallery-img'></img>
+						<img src={wig4} alt='' className='gallery-img'></img>
+						<img src={wig5} alt='' className='gallery-img'></img>
+						<img src={wig6} alt='' className='gallery-img'></img>
+						<img src={wig7} alt='' className='gallery-img'></img>
+						<img src={wig8} alt='' className='gallery-img'></img>
+					</div>
+				</div>
+			) : (
+				<Loading />
+			)}
+		</>
 	);
 }
 
