@@ -5,6 +5,7 @@ import background2 from '../../assets/hair.jpg';
 import './Main.css';
 import Contact from '../Contact/Contact';
 import Loading from '../Loading/Loading';
+import Slideshow from '../Slideshow/Slideshow';
 
 function Main(props) {
 	const [loading, setLoading] = useState(true);
@@ -17,6 +18,7 @@ function Main(props) {
 		<>
 			{loading === false ? (
 				<div className='page'>
+					<Slideshow />
 					<img
 						src={background2}
 						alt='Salon with brushes'

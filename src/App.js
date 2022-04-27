@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import 'react-slideshow-image/dist/styles.css';
 // import logo from './logo.svg';
 
 import Nav from './component/Nav/Nav';
