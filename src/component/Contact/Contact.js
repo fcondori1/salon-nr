@@ -1,6 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import service from '../../assets/'
+import service from '../../assets/service.jpg';
+import beauty from '../../assets/beauty.jpg';
+import me from '../../assets/noelia.png';
 
 function Contact(props) {
     return (
