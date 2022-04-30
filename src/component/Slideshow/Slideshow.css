@@ -1,0 +1,31 @@
+.slide-container {
+    /* height: 200px; */
+}
+
+.each-slide {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slides {
+    width: 300px;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    .each-slide {
+        height: 80%;
+        width: 80%;
+    }
+
+    .slides {
+        width: 60%;
+    }
+}

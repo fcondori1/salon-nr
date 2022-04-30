@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import 'react-slideshow-image/dist/styles.css';
 // import logo from './logo.svg';
 
 import Nav from './component/Nav/Nav';
@@ -16,7 +17,7 @@ function App() {
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		setTimeout(() => setLoading(false), 2000)
+		setTimeout(() => setLoading(false), 4000)
 	}, []);
 
 	return (
