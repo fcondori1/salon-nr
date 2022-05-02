@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Gallery.css';
 import Loading from '../Loading/Loading';
+import Slideshow from '../Slideshow/Slideshow';
 import wig1 from '../../assets/gallery/wig1.JPG';
 import wig1a from '../../assets/gallery/wig1a.JPG';
 import wig2 from '../../assets/gallery/wig2.JPG';
@@ -34,6 +35,7 @@ function Gallery(props) {
 		<>
 			{loading === false ? (
 				<div className='page'>
+					<Slideshow />
 					<div>
 						<img src={full1} alt='' className='gallery-img gallery-full'></img>
 						<img src={full2} alt='' className='gallery-img gallery-full'></img>
