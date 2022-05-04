@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(225, 236, 245);
 }
 
 .slides {
@@ -17,15 +18,30 @@
 .active {
     display: flex;
     justify-content: center;
+    background-color: blanchedalmond;
+    /* width: 100px; */
+}
+
+.indicators {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
 }
 
 @media screen and (min-width: 600px) {
     .each-slide {
-        height: 80%;
-        width: 80%;
+        /* height: 80%; */
+        width: 100%;
+        /* margin-top: 20%; */
     }
 
     .slides {
-        width: 60%;
+        width: 220px;
+    }
+
+    .indicators { 
+        width: auto;
     }
 }

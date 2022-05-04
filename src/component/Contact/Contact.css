@@ -9,9 +9,21 @@
 
 .boxes {
     border: solid black 1px;
-    padding: 10%;
+    padding: 20px;
+    margin: 10px;
+    background-image: none;
 }
 
 .boxes:hover {
     background-color: rgb(192, 183, 103);
+}
+
+@media screen and (min-width: 600px) {
+    .boxes {
+        padding: 10%;
+        background-image: url('../../assets/beauty.jpg');
+        /* background-position: cover; */
+        background-size: cover;
+        color: rgb(85, 85, 85);
+    }
 }

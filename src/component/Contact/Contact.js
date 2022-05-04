@@ -1,12 +1,15 @@
 import React from 'react';
 import './Contact.css';
+import service from '../../assets/service.jpg';
+import beauty from '../../assets/beauty.jpg';
+import me from '../../assets/noelia.png';
 
 function Contact(props) {
     return (
 			<div className='information'>
-				<p className='boxes'>Noelia Rosales</p>
-				<p className='boxes'>(301)974-XXXX</p>
-				<p className='boxes'>NoeliaRosales@gmail.com</p>
+				<p className='boxes'>Gallery</p>
+				<p className='boxes'>Me</p>
+				<p className='boxes'>Services</p>
 			</div>
 		);
 }
