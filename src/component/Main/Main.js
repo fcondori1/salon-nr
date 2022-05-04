@@ -18,11 +18,11 @@ function Main(props) {
 		<>
 			{loading === false ? (
 				<div className='page'>
-					<Slideshow />
 					<img
 						src={background2}
 						alt='Salon with brushes'
 						className='background1'></img>
+					<Slideshow />
 					<Contact />
 					<img
 						src={background1}
