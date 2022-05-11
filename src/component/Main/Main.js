@@ -22,8 +22,8 @@ function Main(props) {
 						src={background2}
 						alt='Salon with brushes'
 						className='background1'></img>
-					<Slideshow />
 					<Contact />
+					<Slideshow />
 					{/* <img
 						src={background1}
 						alt='Salon with brushes'
