@@ -6,7 +6,9 @@
 }
 
 .gallery-img:hover {
-    filter: grayscale(0%);
+    filter: grayscale(10%);
+    transition: .2s ease-in-out;
+    /* width: 31%; */
 }
 
 .gallery-wigs {
@@ -28,5 +30,9 @@
         width: 30%;
         margin: 10px 5%;
         /* height: 25%; */
+    }
+
+    .gallery-img:hover {
+        /* padding-top: 10px; */
     }
 }

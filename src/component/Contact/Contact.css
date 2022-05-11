@@ -1,7 +1,7 @@
 .information {
     /* background-color: aqua; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     font-size: 10px;
     margin: 30px;
@@ -9,21 +9,29 @@
 
 .boxes {
     border: solid black 1px;
-    padding: 20px;
-    margin: 10px;
-    background-image: none;
+    padding: 40px;
+    margin: 5px;
+    /* background-image: none; */
+    background-color: whitesmoke;
+    color: rgb(85, 85, 85);
+    font-size: 50px;
 }
 
 .boxes:hover {
-    background-color: rgb(192, 183, 103);
+    background-color: rgb(187, 187, 187);
 }
 
 @media screen and (min-width: 600px) {
     .boxes {
-        padding: 10%;
-        background-image: url('../../assets/beauty.jpg');
-        /* background-position: cover; */
+        padding: 8%;
+        /* background-image: url('../../assets/beauty.jpg'); */
         background-size: cover;
         color: rgb(85, 85, 85);
+        /* opacity: 50%; */
+        width: 200px;
+    }
+
+    .information { 
+        flex-direction: row;
     }
 }
