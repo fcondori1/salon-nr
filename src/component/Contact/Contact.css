@@ -12,10 +12,11 @@
     padding: 40px;
     margin: 5px;
     /* background-image: none; */
+    background-color: whitesmoke;
 }
 
 .boxes:hover {
-    background-color: rgb(192, 183, 103);
+    background-color: rgb(174, 250, 255);
 }
 
 @media screen and (min-width: 600px) {
