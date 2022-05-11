@@ -13,6 +13,8 @@
     margin: 5px;
     /* background-image: none; */
     background-color: whitesmoke;
+    color: rgb(85, 85, 85);
+    font-size: 50px;
 }
 
 .boxes:hover {
@@ -22,9 +24,14 @@
 @media screen and (min-width: 600px) {
     .boxes {
         padding: 10%;
-        background-image: url('../../assets/beauty.jpg');
+        /* background-image: url('../../assets/beauty.jpg'); */
         /* background-position: cover; */
         background-size: cover;
         color: rgb(85, 85, 85);
+        /* opacity: 50%; */
+    }
+
+    .information { 
+        flex-direction: row;
     }
 }
