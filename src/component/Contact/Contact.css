@@ -1,7 +1,7 @@
 .information {
     /* background-color: aqua; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     font-size: 10px;
     margin: 30px;
@@ -9,9 +9,9 @@
 
 .boxes {
     border: solid black 1px;
-    padding: 20px;
-    margin: 10px;
-    background-image: none;
+    padding: 40px;
+    margin: 5px;
+    /* background-image: none; */
 }
 
 .boxes:hover {
